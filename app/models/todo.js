@@ -1,13 +1,13 @@
 import DS from "ember-data";
 
-var Todo = export default DS.Model.extend({
+var Todo = DS.Model.extend({
    title: DS.attr('String'),
    isCompleted: DS.attr('boolean')
 });
 
 
 Todo.reopenClass({
-  FIXTURES = [
+  FIXTURES: [
          {
            id: 1,
            title: 'Learn Ember.js',
@@ -23,6 +23,7 @@ Todo.reopenClass({
            title: 'Profit!',
            isCompleted: false
          }
-        ]
-})
-export default TODO;
+      ]
+});
+
+export default Todo;
