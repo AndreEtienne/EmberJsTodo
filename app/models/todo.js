@@ -15,7 +15,7 @@ Todo.reopenClass({
          },
          {
            id: 2,
-           title: '...',
+           title: 'Immer',
            isCompleted: false
          },
          {
